@@ -8,7 +8,7 @@ require('dotenv').config()
 
 const cache = new NodeCache({ stdTTL: 3600 }); // cache data for 1 hour
 
-const apiKey = process.env.API_KEY;
+const apiKey = process.env.API_KEY; // you can use your own api key
 
 const app = express();
 
